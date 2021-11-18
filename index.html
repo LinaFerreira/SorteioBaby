@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chá-rifa Grão de Gente </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="./graodegente-white.jpg" alt="">
+        <a href="https://www.instagram.com/graodegente/"> Instagram </a>
+        <a href="https://www.graodegente.com.br/"> Site </a>
+        
+
+
+    </header>
+    <h1 class="chamada"> Faça aqui o sorteio do  chá-rifa do seu bebê!</h1>
+        
+    <div class="container">
+       
+        <div> 
+           <p> 1. Digite o nome do bebê</p> <input type="text" id="n" >
+        </div>
+
+        <div> 
+           <p> 2. Digite a quantidade de números da cartela do chá-rifa</p><input  type="number" name="numero" id="numeracao">
+        </div> 
+
+        <div>
+              <p> 3. Digite qual será a premiação </p><input type="text" name=" " id="premio">
+        </div>
+    
+        <div>
+        <button id="sortear" onclick="sortear()" > Sortear</button>
+        </div>
+
+    </div>
+
+        <div >
+           <h2 id="e" ></h2>
+               
+        </div>
+                
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+$("#sortear").click (() => {
+       $(".chamada").hide();
+       $(".container").fadeOut();  
+
+})
+ 
+</script>
+<script src="./script.js"></script>
+<p class="footer">  Desenvolvido por Carolina Ferreira 2021 - Caráter experimental</p>
+</body>
+</html>

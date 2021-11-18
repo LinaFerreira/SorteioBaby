@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    width: auto;
+    height: 120px;
+    background-color: rgb(0, 187, 180);
+
+}
+
+img{
+    width: 150px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+input{
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.container{
+   
+    width: auto;
+    height: 100px;
+    background-color: rgba(238, 187, 121, 0.685);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: auto;
+    
+}
+.chamada{
+
+    background-color: rgba(238, 187, 121, 0.685);
+    width: auto;
+    height: 50px;
+    margin-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+    color:rgb(5, 94, 91);
+    }
+
+.chamada2{
+
+     background-color: rgba(238, 187, 121, 0.685);
+    width: auto;
+    height: 30px;
+    margin-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+    color:rgb(121, 118, 112)
+    }
+
+#n{
+    width: auto;
+    height: 30px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-style: none;
+    outline-style: none;
+    padding-left:30px;
+    box-shadow: 1px 8px 1px rgba(16, 27, 14, 0.123);
+
+}
+#numeracao{
+    width: auto;
+    height: 30px;
+    margin-right: 50px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-style: none;
+    outline-style: none;
+    padding-left:30px;
+    box-shadow: 1px 8px 1px rgba(16, 27, 14, 0.123);
+      
+}
+
+#premio{
+    width: auto;
+    height: 30px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-style: none;
+    outline-style: none;
+    padding-left:30px;
+    box-shadow: 1px 8px 1px rgba(16, 27, 14, 0.123);
+
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+    color: rgb(5, 94, 91);
+    font-family: 'Comfortaa', cursive;
+}
+
+button{
+
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(0, 187, 180);
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 1px 8px 1px rgba(16, 27, 14, 0.123); 
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+   
+}
+#e{
+    display: inline-block;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-top: 150px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+    color: rgb(5, 94, 91);
+    width: 90%;
+    text-align: center;
+    font-weight: 500;
+
+}
+.numeroSorteado{
+    color:rgb(124, 55, 23);
+   
+}
+body{
+    background-image: url(./Sem\ Título-2.png);
+
+}
+
+a{
+    font-family: 'Comfortaa', cursive; 
+    float: right;
+    font-size: 13px;
+    color:rgb(255, 255, 255);
+    margin-right: 50px;
+    margin-top: 60px;
+    font-style: none;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a:hover{
+   
+    font-style: none;
+    text-decoration:underline;
+
+    
+}
+.novoSorteio{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    margin-top: auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 187, 180);
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 1px 8px 1px rgba(16, 27, 14, 0.123); 
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+ 
+.novoSorteio:hover{
+    text-decoration: none;
+}
+.footer{
+    /* width: auto;
+    height: 250px; */
+    background-color: transparent;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(5, 94, 91);
+    font-size: 12px ;
+    margin-top: 200px;
+    text-align: center;
+
+}  
+
+    
+
